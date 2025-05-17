@@ -14,6 +14,14 @@ Cursor Learner is a prompt generator for cursor users that's focused on learning
 
 2. `bun run retrieve-projects`
 
+   This will copy all of the local user database's associated with every project you've opened in Cursor.
+
+   The files are .vscdb files which are SQLite3 files that VS Code uses internally for workspace storage and extension state
+
+   These files are viewable with any SQLite 3 viewer but the extension in `./vscode/extensions.json` displays the files like so:
+
+![](/assets/vscdb-file-example.png)
+
 3. Specify your projects name, language, tech stack, framework & any dependencies your project has
 
 ![](/assets/project-info.png)

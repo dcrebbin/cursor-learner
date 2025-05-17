@@ -1,6 +1,8 @@
 import fs from "fs";
 
 const homeDir = process.env.HOME || process.env.USERPROFILE;
+
+//TODO: make this work on windows & linux
 const workspaceStoragePath = `${homeDir}/Library/Application Support/Cursor/User/workspaceStorage`;
 
 function retrieveProjects() {
