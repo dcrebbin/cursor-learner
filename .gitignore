@@ -3,6 +3,7 @@ node_modules
 
 /cursor-data/*.db
 /cursor-data/*.vscdb
+/output-prompts/*.txt
 # output
 out
 dist
