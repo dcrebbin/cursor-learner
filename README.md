@@ -20,7 +20,7 @@ Cursor Learner is a prompt generator for cursor users that's focused on learning
 
    This will copy all of the local user database's associated with every project you've opened in Cursor.
 
-   The files are .vscdb files which are SQLite3 files that VS Code uses internally for workspace storage and extension state
+   The files are .vscdb files which are SQLite3 files that VS Code/Cursor/Windsurf etc uses internally for workspace storage and extension state
 
    These files are viewable with any SQLite 3 viewer but the extension in `./vscode/extensions.json` displays the files like so:
 
