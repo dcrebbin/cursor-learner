@@ -1,15 +1,29 @@
-# cursor-learner
+# Cursor Learner
 
-To install dependencies:
+Cursor Learner is a prompt generator for cursor users that's focused on learning where you need to improve.
 
-```bash
-bun install
-```
+### Requirements
 
-To run:
+1. bun
 
-```bash
-bun run index.ts
-```
+2. cursor
 
-This project was created using `bun init` in bun v1.2.8. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+### Setup
+
+1. `bun install`
+
+2. `bun run retrieve-projects`
+
+3. Specify your projects name, language, tech stack, framework & any dependencies your project has
+
+![](/assets/project-info.png)
+
+4.`bun run generate-prompt`
+
+5. You can now copy the prompt from the `./output-prompts` and feed it into your AI of choice
+
+Here is an example output from OpenAI o3
+
+![](/assets/llm-response.png)
+
+Have fun : )
