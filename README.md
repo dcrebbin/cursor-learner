@@ -2,6 +2,10 @@
 
 Cursor Learner is a prompt generator for cursor users that's focused on learning where you need to improve.
 
+### Example Output
+
+![](/assets/example-prompt-output.png)
+
 ### Requirements
 
 1. bun
